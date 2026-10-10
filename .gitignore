@@ -1,0 +1,11 @@
+node_modules/
+artifacts/
+*.tar.gz
+
+.codex/
+
+# Local credentials and runtime state
+.dev.vars*
+.env*
+.wrangler/
+*.sqlite

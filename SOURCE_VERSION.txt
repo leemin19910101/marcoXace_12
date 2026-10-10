@@ -1,0 +1,4 @@
+Source commit: e13e15f978eae6c4d5e76113291169ef9a262b71
+Site version: 1
+Exported: 2026-10-10
+README and unbound hosting manifest added for Git use.
