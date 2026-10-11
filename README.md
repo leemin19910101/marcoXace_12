@@ -1,69 +1,126 @@
-# 41｜卡金王室機密檔案
+# vinext-starter
 
-這份 ZIP 收錄目前「41｜卡金王室機密檔案」網站的原始檔，包含首頁、閱讀器、五篇示範短篇、管理介面及可自行部署的 Cloudflare Worker 程式。解壓縮後會得到 `kakin-royal-archive` 資料夾。
+A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.
 
-## 檔案與功能
+## Prerequisites
 
-| 檔案 | 用途 |
-| --- | --- |
-| `dist/index.html`、`dist/style.css`、`dist/app.js` | 讀者頁、版面與閱讀器 |
-| `dist/content.json` | 五篇內建的示範短篇；靜態瀏覽時的內容來源 |
-| `dist/admin.html`、`dist/admin.css`、`dist/admin.js` | 管理頁面，需連接後端與設定管理密碼才能登入、編輯及上傳圖片 |
-| `dist/server/index.js`、`worker.js` | Cloudflare Worker 後端程式；兩份內容相同，`wrangler.json` 使用前者 |
-| `wrangler.json` | Workers 的部署設定，尚需填入自己建立的 D1 資料庫 ID |
+- Node.js `>=22.13.0`
+- Portable: Windows, macOS, or Linux; no Bash required
+- Managed Linux: managed Linux runtime with Bash, `flock`, `curl`, `sha256sum`, and GNU `timeout`
+- Git is required only for publishing
 
-這份程式碼沒有封裝網站上日後新增或修改的線上資料庫內容、上傳圖片、管理密碼或工作階段。如已有管理頁內容，請先從原站管理頁下載備份；備份不會自動匯入這個新部署。
+## Sites Lifecycle
 
-## 上傳自己的 Git 儲存庫
+The Sites initializer copies the shared starter and selects managed-linux only when `SITES_MANAGED_LINUX_CONTAINER=1`; otherwise it selects portable. It saves the selection only in ignored `.sites-runtime/execution-profile.json`. Both profiles copy/configure first, then use the plugin's separate `install-dependencies.mjs` step to measure installation independently. Edit source under `app/` and follow the Sites skill for installation, preview, builds, and publishing.
 
-請將解壓縮後 `kakin-royal-archive` **資料夾內的檔案**上傳至自己的儲存庫，而非只上傳 ZIP。可以用 GitHub Desktop；若使用命令列，在該資料夾執行：
+Run `node <plugin-root>/scripts/configure-execution-profile.mjs` only when the profile is unknown for the current checkout and environment. Profile changes do not alter tracked source or require reinstalling otherwise-valid dependencies; restart an existing preview to use the new selection. Do not commit or upload `.sites-runtime/`.
 
-```bash
-git init -b main
-git add .
-git commit -m "Add Kakin royal archive website"
-git remote add origin YOUR_REPOSITORY_GIT_URL
-git push -u origin main
+This starter does not use `wrangler.jsonc`.
+
+`install:ci` runs `npm ci` once against the shared lockfile, disables parent-workspace discovery, and includes required dev/optional dependencies despite production/omit settings. Sharp defaults to prebuilt binaries unless explicitly configured otherwise. Do not overlap installers.
+
+- **Portable:** Preserve host HOME, npm cache, registry, proxy, temporary paths, retry/concurrency settings, and lifecycle-script policy. Use `--prefer-offline --no-audit --no-fund`.
+- **Managed Linux:** Use the existing project-local HOME/cache/tmp setup and Linux install lock, tarball preflight, and timeout. Restore the image-seeded npm cache only when its lockfile hash matches; retain network fallback. Builds keep their existing timeout. These helpers are not invoked by the portable profile.
+
+`scripts/sites-env.mjs` preserves the caller's HOME, npm cache, proxy, XDG, and temporary-directory configuration while defaulting Wrangler and Miniflare state to the checkout. If npm reports an unwritable cache, select a writable path with `npm_config_cache` for that install. The `dev` and `start` scripts also keep Wrangler logs inside the checkout. Generated `.sites-runtime/` and `.wrangler/` directories are disposable and ignored by Git.
+
+On portable, `npm run dev` uses `vinext dev` with HMR, starting at port 5173. Vinext records the running server in ignored `.vinext/` state, rejects an ordinary duplicate launch, and recovers stale state after a stopped process; exactly simultaneous starts can race. Pass `--port <port>` or `--hostname <host>` after `npm run dev --` when needed; keep portable previews on loopback.
+
+For browser QA on managed Linux, use `sites-preview start`. The project's dev script runs Vite and accepts the supervisor's `--host 0.0.0.0 --port 4173 --strictPort` arguments. The internal browser uses `http://terminal.local:4173/`; it is not a user-facing URL. The supervisor owns the preview lifecycle. The ignored local profile survives the supervisor's cleared process environment.
+
+The portable profile simulates ChatGPT sign-in only for loopback development requests. Visit `/signin-with-chatgpt?return_to=/` to sign in as `local_seedy` (`seedy@sites.test`, display name `Seedy`) and `/signout-with-chatgpt?return_to=/` to sign out. The development cookie preserves that identity across server restarts. Mock auth is disabled in the managed-linux profile and is not included in production builds; hosted authentication remains dispatch-owned.
+
+The Worker uses `vinext/server/fetch-handler`, including Vinext's config-aware image handling. After building, `npm start` runs that Worker locally through Wrangler on `127.0.0.1`, sharing `.wrangler/state` with dev preview and local D1 migrations; it does not deploy the site or simulate sign-in. Use the URL printed by the server. Pass `npm start -- --port <port>` to select a different built-preview port.
+
+Local previews use Miniflare's placeholder `Request.cf` metadata without a network lookup. Set `CLOUDFLARE_CF_FETCH_ENABLED=true` to opt into fetching preview metadata; this setting does not change hosted request metadata.
+
+Local tool usage metrics are disabled by default. Set `WRANGLER_SEND_METRICS=true` to opt in.
+
+## Included Shape
+
+- edit site code under `app/`
+- `app/chatgpt-auth.ts` provides optional dispatch-owned ChatGPT sign-in helpers
+- `.openai/hosting.json` declares optional Sites D1 and R2 bindings
+- `vite.config.ts` simulates declared bindings for local development
+- `db/index.ts` reads the D1 binding from the Cloudflare Worker environment
+- `db/schema.ts` starts intentionally empty
+- `@cloudflare/workers-types` provides Worker types; `cloudflare-env.d.ts` declares optional `DB`/`BUCKET` bindings—update these declarations if binding names change
+- `examples/d1/` contains an optional D1 example surface
+- `drizzle.config.ts` supports local migration generation when needed
+
+## Workspace Auth Headers
+
+Signed-in visitors receive both `oai-authenticated-user-id` and `oai-authenticated-user-email`. Private Sites require every visitor to sign in; public Sites may also have anonymous visitors, for whom neither header is present.
+
+The user ID is stable for the same user on the same Site and different across Sites. Use it as the durable user key; use email and name for display or contact purposes.
+
+SIWC-authenticated workspace sites may also receive `oai-authenticated-user-full-name` when the user's SIWC profile has a non-empty `name` claim. The full-name value is percent-encoded UTF-8 and is accompanied by `oai-authenticated-user-full-name-encoding: percent-encoded-utf-8`.
+
+Treat the full name as optional and fall back to email when it is absent:
+
+```tsx
+import { headers } from "next/headers";
+
+export default async function Home() {
+  const requestHeaders = await headers();
+  const userId = requestHeaders.get("oai-authenticated-user-id");
+  const email = requestHeaders.get("oai-authenticated-user-email");
+  const encodedFullName = requestHeaders.get("oai-authenticated-user-full-name");
+  const fullName =
+    encodedFullName &&
+    requestHeaders.get("oai-authenticated-user-full-name-encoding") ===
+      "percent-encoded-utf-8"
+      ? decodeURIComponent(encodedFullName)
+      : null;
+
+  const displayName = fullName ?? email;
+  // ...
+}
 ```
 
-請把 `YOUR_REPOSITORY_GIT_URL` 換成自己空白儲存庫的 URL。若儲存庫已存在，直接複製檔案並提交，不必再次執行 `git init`。
+## Optional Dispatch-Owned ChatGPT Sign-In
 
-Git 可以保存原始碼。只使用 GitHub Pages 時，`dist` 內的示範文章與閱讀介面可作為靜態網站使用；`/api/`、登入、編輯及上傳圖片需要 Cloudflare Workers 與 D1。若 GitHub Pages 使用專案子目錄網址，程式中以 `/` 開頭的首頁或管理頁路徑也可能需要調整。
+Import the ready-to-use helpers from `app/chatgpt-auth.ts` when the site needs optional or required ChatGPT sign-in:
 
-## 在電腦預覽讀者頁
+- Use `getChatGPTUser()` for optional signed-in UI.
+- Use the returned `userId` as the stable user key for user-owned records; do not use email as a durable identifier.
+- Use `requireChatGPTUser(returnTo)` for server-rendered pages that should send anonymous visitors through Sign in with ChatGPT.
+- In a Server Component, start sign-in with `<a href={chatGPTSignInPath(returnTo)} target="_top">`. The auth helper module is server-only; do not import it into a Client Component.
+- Do not use `fetch`, XHR, a client-side router, or a framework link that can prefetch the sign-in route. SIWC must start as a top-level navigation.
+- Never request the AuthAPI authorization endpoint directly. The dispatch-owned `/signin-with-chatgpt` route must start the SIWC flow.
+- Use `chatGPTSignOutPath(returnTo)` for browser sign-out links or actions.
+- Pass a same-origin relative `returnTo` path for the destination after sign-in or sign-out. The helper validates and safely encodes it.
+- Mark protected pages with `export const dynamic = "force-dynamic"` because they depend on per-request identity headers.
 
-電腦有安裝 Python 時，可在專案根目錄執行：
+Dispatch owns `/signin-with-chatgpt`, `/signout-with-chatgpt`, `/callback`, the OAuth cookies, and identity header injection. Do not implement app routes for those reserved paths. Routes that do not import and call the helper remain anonymous-compatible.
 
-```bash
-python -m http.server 8000 --directory dist
+SIWC establishes identity only; it does not prove workspace membership. Use the Sites hosting platform's access policy controls for workspace-wide restrictions, or enforce explicit server-side membership or allowlist checks.
+
+Use SIWC for account pages, user-specific dashboards, saved records, and write actions tied to the current ChatGPT user. Leave public content anonymous.
+
+## Local D1 migrations
+
+For a D1-backed local preview, generate SQL with `npm run db:generate`. Build once through the Sites skill's build entrypoint (or `npm run build` for standalone use) to generate `dist/server/wrangler.json`, rebuilding if bindings change. From the project root, apply each pending migration in order:
+
+```sh
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_example.sql
 ```
 
-然後開啟 `http://localhost:8000`。Windows 也可使用 `py -m http.server 8000 --directory dist`。讀者頁在 `/api/records` 不可用時會讀取 `dist/content.json`；這個純靜態預覽無法登入管理頁。
+Replace the filename with the pending migration and `DB` with your D1 binding name if different. Use `.wrangler/state`, not `.wrangler/state/v3`; Wrangler adds the versioned directories. Do not replay migrations already applied locally. This updates only the preview database; publishing applies production migrations separately.
 
-## 保留管理介面：部署到自己的 Cloudflare
+## Diagnostic Commands
 
-需要 Node.js 與 npm（用來執行 Wrangler），並在自己的 Cloudflare 帳戶建立 D1 資料庫。先在專案根目錄執行：
+- `npm run install:ci`: perform the one locked dependency install
+- `npm run dev`: start the Vite/Vinext development server
+- `npm run build`: build the deployable Sites artifact
+- `npm run start`: preview the built Worker locally with D1/R2 support
+- `npm run db:generate`: generate Drizzle migrations after schema changes
 
-```bash
-npx wrangler login
-npx wrangler d1 create royal-archive
-```
+When using the Sites plugin, follow its skill instructions for installation, builds, and publishing. These npm commands remain available for standalone use.
 
-第二個指令會回傳資料庫 ID。打開 `wrangler.json`，在 `d1_databases` 陣列的資料庫項目加入 `"database_id": "剛取得的 ID"`；保留綁定名稱 `DB`，資料庫名稱應與自己建立的名稱一致。`assets.directory` 已設定為 `dist`，Worker 程式入口為 `dist/server/index.js`。
+The portable build runs Vinext directly without a host `timeout` command. The managed-linux build uses `scripts/build-verified.sh` and its existing `SITES_BUILD_TIMEOUT` setting.
 
-接著部署並設定管理密碼：
+## Learn More
 
-```bash
-npx wrangler deploy --config wrangler.json
-npx wrangler secret put ARCHIVE_ADMIN_KEY --config wrangler.json
-```
-
-後一個指令會提示你輸入自訂密碼，請輸入你自己要用的密碼，**不要把密碼寫進檔案或提交到 Git**。部署完成後，開啟 Worker 網址的 `/admin.html` 登入。日後可在管理頁更改密碼；變更後的密碼雜湊儲存在 D1 中。此版管理頁**需要密碼**，與另一個免登入編輯的網站不同。
-
-第一次 API 請求會建立 D1 資料表，並用五篇示範短篇初始化全新的資料庫。若重新部署到另一個 Cloudflare 帳戶，舊站已新增的文章或圖片不會跟著 Git 原始碼搬過去。
-
-## 參考資料
-
-- [Cloudflare D1 的 Wrangler 指令](https://developers.cloudflare.com/d1/wrangler-commands/)
-- [Cloudflare Workers 的 Secrets](https://developers.cloudflare.com/workers/configuration/secrets/)
-- [Cloudflare Workers 部署指令](https://developers.cloudflare.com/workers/wrangler/commands/workers/)
+- [vinext Documentation](https://github.com/cloudflare/vinext)
+- [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)

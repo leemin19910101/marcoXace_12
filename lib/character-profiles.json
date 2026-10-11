@@ -1,0 +1,554 @@
+[
+  {
+    "id": "subject-01",
+    "category": "characters",
+    "code": "SUBJECT 01",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "班哲明·回可羅",
+        "subtitle": "Benjamin Hui Guo Rou · ベンジャミン＝ホイコーロ",
+        "body": "簡介\n卡金帝國第一王子、軍事最高副顧問。第一王妃溫瑪之子，與第四、第九王子同母。體格魁梧，具有徒手制伏獅子的力量。性格剛直、重視忠誠，看似粗暴，實則能聽取部下情報、冷靜修正判斷，志在奪取王位。\n\n能力\n「繼承繁星之人」：可繼承誓言效忠自己的念能力者身故後留下的能力；每繼承一項，手掌便出現一枚星紋。已知能力包括「虛空拳」、「後窗之鳥」與「遊戲王」。\n\n守護靈獸：具有巨大顎部的異形生物。"
+      },
+      "ja": {
+        "title": "ベンジャミン＝ホイコーロ",
+        "subtitle": "Benjamin Hui Guo Rou",
+        "body": "紹介\nカキン帝国の第一王子で、軍事最高副顧問。第一王妃ウンマの息子で、第四・第九王子と同母。獅子を素手で制するほどの巨体と怪力を持つ。剛直で忠誠を重んじ、荒々しく見えても部下の情報を受け入れ、冷静に判断を修正できる。王位獲得を目指す。\n\n能力\n「ベンジャミンバトン」：忠誠を誓った念能力者の死後、その能力を継承する。能力を受け継ぐたびに掌に星の紋様が現れる。「虚空拳」「裏窓の鳥」「遊戯王」などを継承。\n\n守護霊獣：巨大な顎を持つ異形の生物。"
+      },
+      "en": {
+        "title": "Benjamin Hui Guo Rou",
+        "subtitle": "Benjamin Hui Guo Rou",
+        "body": "Profile\nKakin’s first prince and its supreme military deputy adviser. A son of Queen Unma and maternal brother to the fourth and ninth princes. His immense strength can subdue a lion bare-handed. Stern and loyal-minded, he listens to reliable reports and adjusts his decisions despite his forceful manner. He intends to claim the throne.\n\nAbilities\nBenjamin Baton: inherits the abilities of Nen users who pledged loyalty to him after their deaths. Each inherited ability leaves a star on his palm. Known examples include Air Blow, Secret Window and The Touch.\n\nGuardian Spirit Beast: an alien-like creature with enormous jaws."
+      }
+    }
+  },
+  {
+    "id": "subject-04",
+    "category": "characters",
+    "code": "SUBJECT 04",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "傑利多尼希·回可羅",
+        "subtitle": "Tserriednich Hui Guo Rou · ツェリードニヒ＝ホイコーロ",
+        "body": "簡介\n卡金帝國第四王子，第一王妃溫瑪之子，與第一、第九王子同母。擁有豐富知識、財富與藝術鑑賞力，也是火紅眼持有者，支持愛依・依家族並涉足黑市。性格殘酷、傲慢且記仇，以殺戮滿足人體藝術收藏欲，對王位抱有強烈野心。\n\n能力\n特質系，擁有驚人的念天賦。水見式會使水腐蝕樹葉並散發惡臭。\n\n「一剎那的十秒」：閉眼並發動「絕」，瞬間預見接下來十秒；睜眼後能在他人未察覺的情況下行動，改變預見的結果。另孕育出巨翅念獸。\n\n守護靈獸：人臉長頸半人馬，口中另藏帶眼分叉舌的人頭。能感知附近的念，並標記對王子說謊者；三次說謊後將其變為非人之物。"
+      },
+      "ja": {
+        "title": "ツェリードニヒ＝ホイコーロ",
+        "subtitle": "Tserriednich Hui Guo Rou",
+        "body": "紹介\nカキン帝国の第四王子。第一王妃ウンマの息子で、第一・第九王子と同母。知識、財力、美的感覚に恵まれ、緋の眼を所有する。エイ＝イ一家を支援し、闇市場にも関わる。残酷で傲慢、執念深く、人体を用いた収集欲のために殺人を行う。王位への野心も強い。\n\n能力\n特質系で、驚異的な念の才能を持つ。水見式では水が葉を腐食させ、悪臭を放つ。\n\n「刹那の10秒」：目を閉じて「絶」を使うと、その後の10秒間を瞬時に予知する。目を開けた後は他者に気づかれず行動し、予知した結果を変えられる。翼の大きな念獣も生み出している。\n\n守護霊獣：人面で首の長い馬型の異形。口の中には目のある二股の舌を持つ頭部がある。周囲の念を感知し、王子に嘘をつく者を刻印する。三度の嘘で人ならざるものへ変える。"
+      },
+      "en": {
+        "title": "Tserriednich Hui Guo Rou",
+        "subtitle": "Tserriednich Hui Guo Rou",
+        "body": "Profile\nKakin’s fourth prince, a son of Queen Unma and maternal brother to the first and ninth princes. Wealthy and knowledgeable, with a refined artistic eye, he owns Scarlet Eyes and supports the Heil-Ly family’s underworld interests. Cruel, arrogant and vindictive, he murders to satisfy his taste for human-body art and covets the throne.\n\nAbilities\nA Specialist with extraordinary Nen talent. His water divination corrodes the leaf and produces a foul smell.\n\nTen Seconds in an Instant: closing his eyes while using Zetsu reveals the next ten seconds instantly. After opening his eyes, he can act unnoticed and change the predicted outcome. He has also produced a large-winged Nen beast.\n\nGuardian Spirit Beast: a long-necked, human-faced horse-like creature, with another head and an eyed, forked tongue inside its mouth. It senses nearby Nen and marks those who lie to the prince; three lies transform the offender into something inhuman."
+      }
+    }
+  },
+  {
+    "id": "queen-unma",
+    "category": "characters",
+    "code": "QUEEN 01",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "溫瑪",
+        "subtitle": "Unma · ウンマ",
+        "body": "簡介\n卡金帝國第一王妃，第一王子班哲明、第四王子傑利多尼希與第九王子哈爾肯堡的生母。"
+      },
+      "ja": {
+        "title": "ウンマ",
+        "subtitle": "Unma",
+        "body": "紹介\nカキン帝国の第一王妃。第一王子ベンジャミン、第四王子ツェリードニヒ、第九王子ハルケンブルグの実母。"
+      },
+      "en": {
+        "title": "Unma",
+        "subtitle": "Unma",
+        "body": "Profile\nKakin’s first queen and the biological mother of Benjamin, Tserriednich and Harkenburg."
+      }
+    }
+  },
+  {
+    "id": "kurapika",
+    "category": "characters",
+    "code": "HUNTER 01",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "酷拉皮卡",
+        "subtitle": "Kurapika · クラピカ",
+        "body": "簡介\n窟盧塔族出身的懸賞獵人、十二支成員與諾斯拉家族少主。冷靜重理，遇到幻影旅團相關事物時容易激動。為取回同胞的火紅眼而行動，現擔任第八王妃與第十四王子的護衛，尋找接近第四王子的機會。\n\n能力\n情緒激動時雙眼轉為火紅眼。繼承戰中透過念能力講座，協助其他王子的護衛在短期內掌握念的基礎，維持各方勢力平衡。"
+      },
+      "ja": {
+        "title": "クラピカ",
+        "subtitle": "Kurapika",
+        "body": "紹介\nクルタ族出身の賞金首ハンター。十二支の一員で、ノストラード組の若頭。冷静で理性的だが、幻影旅団には強い感情を抱く。同胞の緋の眼を取り戻すため、第八王妃と第十四王子を護衛しながら第四王子への接触を探る。\n\n能力\n感情が高ぶると瞳が緋色になる。念の講習を通じて各王子の護衛に短期間で念の基礎を教え、勢力の均衡を保とうとする。"
+      },
+      "en": {
+        "title": "Kurapika",
+        "subtitle": "Kurapika",
+        "body": "Profile\nA Kurta bounty hunter, Zodiac and leader of the Nostrade family. Usually composed and rational, he becomes emotional over the Phantom Troupe. While seeking his people’s Scarlet Eyes, he guards the eighth queen and fourteenth prince and looks for a way to approach Tserriednich.\n\nAbilities\nHis eyes turn scarlet under strong emotion. His Nen classes rapidly teach guards the basics of Nen to help maintain a balance between the princes."
+      }
+    }
+  },
+  {
+    "id": "beyond-netero",
+    "category": "characters",
+    "code": "EXPEDITION 01",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "比洋德·尼特羅",
+        "subtitle": "Beyond Netero · ビヨンド＝ネテロ",
+        "body": "簡介\n尼特羅之子，黑暗大陸遠征的發起者。善於周旋各方勢力，在十二支監控下參與渡航，並暗中布局卡金的王位繼承。"
+      },
+      "ja": {
+        "title": "ビヨンド＝ネテロ",
+        "subtitle": "Beyond Netero",
+        "body": "紹介\nネテロの息子で、暗黒大陸探検の発起人。各勢力との交渉に長け、十二支の監視下で渡航に参加する一方、カキンの王位継承にも密かに手を回す。"
+      },
+      "en": {
+        "title": "Beyond Netero",
+        "subtitle": "Beyond Netero",
+        "body": "Profile\nNetero’s son and the organizer of a Dark Continent expedition. Skilled at navigating rival interests, he travels under Zodiac supervision while secretly influencing Kakin’s succession."
+      }
+    }
+  },
+  {
+    "id": "king-nasubi",
+    "category": "characters",
+    "code": "KING",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "納斯比·回可羅",
+        "subtitle": "Nasubi Hui Guo Rou · ナスビ＝ホイコーロ",
+        "body": "簡介\n卡金帝國國王，擁有八位王妃與十四位正式子女。與比洋德合作推動黑暗大陸計畫，並以渡航中的王位繼承戰選出下一任國王。外表庸俗，實則精明、強悍且擅長權術。\n\n能力\n守護靈獸為巨大的蜘蛛狀異形，展現出強大的念之力量。"
+      },
+      "ja": {
+        "title": "ナスビ＝ホイコーロ",
+        "subtitle": "Nasubi Hui Guo Rou",
+        "body": "紹介\nカキン帝国の国王。八人の王妃と十四人の正式な子を持つ。ビヨンドと暗黒大陸進出を進め、船内の継承戦で次の王を選ぶ。俗物的な外見に反し、老練で強か。\n\n能力\n守護霊獣は巨大な蜘蛛のような異形で、強大な念の力を示す。"
+      },
+      "en": {
+        "title": "Nasubi Hui Guo Rou",
+        "subtitle": "Nasubi Hui Guo Rou",
+        "body": "Profile\nKing of Kakin, with eight queens and fourteen legitimate children. He partners with Beyond on the Dark Continent venture and uses the voyage’s succession contest to select the next king. Beneath an unassuming exterior, he is shrewd and formidable.\n\nAbilities\nHis Guardian Spirit Beast is a huge, grotesque spider-like creature with powerful Nen."
+      }
+    }
+  },
+  {
+    "id": "guard-balsamilco",
+    "category": "characters",
+    "code": "GUARD 01-A",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "巴爾薩米爾柯·麥特",
+        "subtitle": "Balsamilco Might · バルサミルコ＝マイト",
+        "body": "簡介\n第一王子的私設兵隊長兼參謀。臉上有交叉傷痕，負責提供情報與戰術建議，輔佐班哲明判斷局勢。"
+      },
+      "ja": {
+        "title": "バルサミルコ＝マイト",
+        "subtitle": "Balsamilco Might",
+        "body": "紹介\n第一王子の私設兵隊長兼参謀。顔に交差する傷があり、情報と戦術的な助言でベンジャミンの判断を支える。"
+      },
+      "en": {
+        "title": "Balsamilco Might",
+        "subtitle": "Balsamilco Might",
+        "body": "Profile\nCaptain and adviser of the first prince’s private soldiers. Recognizable by crossed facial scars, he supports Benjamin with intelligence and tactical judgment."
+      }
+    }
+  },
+  {
+    "id": "guard-vincent",
+    "category": "characters",
+    "code": "GUARD 01-B",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "文森特",
+        "subtitle": "Vincent · ビンセント",
+        "body": "簡介\n第一王子的私設兵，身材高壯的光頭男子，負責監視第十四王子。\n\n能力\n念能力：「虛空拳」。"
+      },
+      "ja": {
+        "title": "ビンセント",
+        "subtitle": "Vincent",
+        "body": "紹介\n第一王子の私設兵。大柄な坊主頭の男で、第十四王子の監視を担当する。\n\n能力\n念能力：「虚空拳」。"
+      },
+      "en": {
+        "title": "Vincent",
+        "subtitle": "Vincent",
+        "body": "Profile\nA tall, bald private soldier of the first prince, assigned to monitor the fourteenth prince.\n\nAbilities\nNen ability: Air Blow."
+      }
+    }
+  },
+  {
+    "id": "guard-babimyna",
+    "category": "characters",
+    "code": "GUARD 01-C",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "巴比麥那",
+        "subtitle": "Babimyna · バビマイナ",
+        "body": "簡介\n第一王子的私設兵，負責監視第十四王子。性格沉著，觀察局勢時較為克制，會給予護衛與王妃必要的空間。\n\n能力\n念能力屬迎擊型，詳情未明；能使用「圓」進行監視。"
+      },
+      "ja": {
+        "title": "バビマイナ",
+        "subtitle": "Babimyna",
+        "body": "紹介\n第一王子の私設兵で、第十四王子を監視する。落ち着いて状況を見極め、王妃や護衛に必要な距離を与えることもある。\n\n能力\n迎撃型の念能力を持つが詳細は不明。「円」による監視が可能。"
+      },
+      "en": {
+        "title": "Babimyna",
+        "subtitle": "Babimyna",
+        "body": "Profile\nA private soldier assigned to monitor the fourteenth prince. Composed and restrained, he assesses situations carefully and sometimes gives the queen and her guards space.\n\nAbilities\nA counteractive Nen user whose full ability is unknown. Uses En for surveillance."
+      }
+    }
+  },
+  {
+    "id": "guard-furykov",
+    "category": "characters",
+    "code": "GUARD 01-D",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "修利科夫",
+        "subtitle": "Furykov · ヒュリコフ",
+        "body": "簡介\n第一王子的私設兵，將班哲明視為家人。多留守第一王子居住區，亦奉命參加酷拉皮卡的念能力講座，監視各方護衛。\n\n能力\n觀察力出眾，能依氣的流動判斷他人是否具備念，以及擅長的能力類型；自身念能力詳情未明。"
+      },
+      "ja": {
+        "title": "ヒュリコフ",
+        "subtitle": "Furykov",
+        "body": "紹介\n第一王子の私設兵で、ベンジャミンを家族のように思う。主に第一王子の区画を守り、クラピカの念講習にも参加して他の護衛を調べる。\n\n能力\n観察力に優れ、オーラの流れから念能力者かどうかや得意分野を見抜く。自身の念能力の詳細は不明。"
+      },
+      "en": {
+        "title": "Furykov",
+        "subtitle": "Furykov",
+        "body": "Profile\nA private soldier who regards Benjamin as family. Usually stationed in the first prince’s quarters, he also attends Kurapika’s Nen classes to observe the other guards.\n\nAbilities\nExceptionally perceptive: reads aura flow to identify Nen users and their specialties. His own full ability remains unspecified."
+      }
+    }
+  },
+  {
+    "id": "guard-theta",
+    "category": "characters",
+    "code": "GUARD 04-A",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "廷太／緹塔",
+        "subtitle": "Theta · テータ",
+        "body": "簡介\n第四王子的私設兵，個性謹慎、戒心強。負責指導傑利多尼希修練念，對其天賦與危險性深感警戒，試圖阻止他的成長。\n\n能力\n具備念的知識與指導能力，能教授「絕」等基礎技巧。"
+      },
+      "ja": {
+        "title": "テータ",
+        "subtitle": "Theta",
+        "body": "紹介\n第四王子の私設兵。慎重で警戒心が強く、ツェリードニヒの念修行を指導する。その才能と危険性を恐れ、成長を阻もうとする。\n\n能力\n念の知識と指導力を持ち、「絶」などの基礎を教えられる。"
+      },
+      "en": {
+        "title": "Theta",
+        "subtitle": "Theta",
+        "body": "Profile\nA cautious, vigilant private guard of the fourth prince. She teaches Tserriednich Nen while fearing his talent and trying to halt his dangerous development.\n\nAbilities\nHas the knowledge to teach fundamental Nen techniques, including Zetsu."
+      }
+    }
+  },
+  {
+    "id": "guard-salkov",
+    "category": "characters",
+    "code": "GUARD 04-B",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "沙路柯夫",
+        "subtitle": "Salkov · サルコフ",
+        "body": "簡介\n第四王子傑利多尼希的私設兵。"
+      },
+      "ja": {
+        "title": "サルコフ",
+        "subtitle": "Salkov",
+        "body": "紹介\n第四王子ツェリードニヒの私設兵。"
+      },
+      "en": {
+        "title": "Salkov",
+        "subtitle": "Salkov",
+        "body": "Profile\nA private soldier serving the fourth prince, Tserriednich."
+      }
+    }
+  },
+  {
+    "id": "guard-myuhan",
+    "category": "characters",
+    "code": "GUARD 04-C",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "謬汗",
+        "subtitle": "Myuhan · ミュハン",
+        "body": "簡介\n第四王子的私設兵，奉命參加酷拉皮卡的念能力講座。"
+      },
+      "ja": {
+        "title": "ミュハン",
+        "subtitle": "Myuhan",
+        "body": "紹介\n第四王子の私設兵。命令を受け、クラピカの念講習に参加する。"
+      },
+      "en": {
+        "title": "Myuhan",
+        "subtitle": "Myuhan",
+        "body": "Profile\nA private soldier of the fourth prince, ordered to attend Kurapika’s Nen classes."
+      }
+    }
+  },
+  {
+    "id": "guard-danjin",
+    "category": "characters",
+    "code": "GUARD 04-D",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "鐺津",
+        "subtitle": "Danjin · タンジン",
+        "body": "簡介\n第四王子的私設兵，奉命向酷拉皮卡學習念。\n\n能力\n受到酷拉皮卡食指鏈借出能力的影響，已具備基本念氣量。"
+      },
+      "ja": {
+        "title": "タンジン",
+        "subtitle": "Danjin",
+        "body": "紹介\n第四王子の私設兵。命令を受けてクラピカから念を学ぶ。\n\n能力\nクラピカの人差し指の鎖による能力貸与を受け、基礎的なオーラを得ている。"
+      },
+      "en": {
+        "title": "Danjin",
+        "subtitle": "Danjin",
+        "body": "Profile\nA private soldier of the fourth prince, instructed to study Nen with Kurapika.\n\nAbilities\nAn ability lent through Kurapika’s index-finger chain has given him a basic level of aura."
+      }
+    }
+  },
+  {
+    "id": "subject-02",
+    "category": "characters",
+    "code": "SUBJECT 02",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "卡蜜拉·回可羅",
+        "subtitle": "Camilla Hui Guo Rou · カミーラ＝ホイコーロ",
+        "body": "簡介\n卡金第二王子，第二王妃德艾茲露之女，與第五、第七王子同母。高傲自信，相信願望理應實現；給予不可持民私設兵地位與待遇，換取強烈效忠。\n\n能力\n「百萬輪迴貓」：迎擊型念獸，在宿主遭殺害後奪取攻擊者的生命，使宿主復活。\n守護靈獸：海葵狀，操作系強制型；滿足條件即可操控他人。"
+      },
+      "ja": {
+        "title": "カミーラ＝ホイコーロ",
+        "subtitle": "Camilla Hui Guo Rou",
+        "body": "紹介\nカキンの第二王子。第二王妃ドゥアズルの娘で、第五・第七王子と同母。尊大で自信家。不遇の身分にある者を私設兵に迎え、待遇を与えて強い忠誠を得ている。\n\n能力\n「百万回生きた猫」：宿主が殺されると攻撃者の命を奪い、宿主を蘇生する迎撃型念獣。\n守護霊獣：イソギンチャク型の強制操作系。条件を満たすと他者を操る。"
+      },
+      "en": {
+        "title": "Camilla Hui Guo Rou",
+        "subtitle": "Camilla Hui Guo Rou",
+        "body": "Profile\nKakin’s second prince, daughter of Queen Duazul and maternal sister to the fifth and seventh princes. Proud and entitled, she grants disadvantaged people status as private soldiers and earns fierce loyalty.\n\nAbilities\nCat’s Name: a counteractive beast that takes the attacker’s life to revive its slain host.\nGuardian Spirit Beast: an anemone-like Manipulator that can control others once its conditions are met."
+      }
+    }
+  },
+  {
+    "id": "subject-03",
+    "category": "characters",
+    "code": "SUBJECT 03",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "秋來·回可羅",
+        "subtitle": "Chourai Hui Guo Rou · チョウライ＝ホイコーロ",
+        "body": "簡介\n卡金第三王子，第三王妃朵嬌蕾之子。支持修巫・巫家族，掌握強大的財力與物流利益。重視榮譽與協商，盡量避免手足相殘，但必要時不會退讓。\n\n能力\n守護靈獸：人面太陽狀的具現化系複合型念獸，每日產出一枚硬幣；持有者滿足不同條件時，硬幣可發揮不同能力。"
+      },
+      "ja": {
+        "title": "チョウライ＝ホイコーロ",
+        "subtitle": "Chourai Hui Guo Rou",
+        "body": "紹介\nカキンの第三王子。第三王妃トウチョウレイの息子。シュウ＝ウ一家を支援し、財力と物流に強い影響力を持つ。名誉と交渉を重んじ、兄弟間の争いを避けたいが、必要なら容赦しない。\n\n能力\n守護霊獣：人面の太陽に似た具現化系の複合型念獣。一日に一枚の硬貨を生み、所持者が条件を満たすと様々な能力を発揮する。"
+      },
+      "en": {
+        "title": "Chourai Hui Guo Rou",
+        "subtitle": "Chourai Hui Guo Rou",
+        "body": "Profile\nKakin’s third prince and son of Queen Tang Zhao Li. Backed by the wealthy Xi-Yu family, he holds influence over trade and logistics. He values honor and negotiation, but will fight when necessary.\n\nAbilities\nGuardian Spirit Beast: a sun-like Conjurer with a human face. It produces one coin a day; different conditions allow the holder to unlock different effects."
+      }
+    }
+  },
+  {
+    "id": "subject-05",
+    "category": "characters",
+    "code": "SUBJECT 05",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "茲貝帕·回可羅",
+        "subtitle": "Tsubeppa Hui Guo Rou · ツベッパ＝ホイコーロ",
+        "body": "簡介\n卡金第五王子，科學家，第二王妃德艾茲露之女。反對現行制度與上位王子的掌權，具備為下位王子爭取特赦的政治實力，積極尋求與酷拉皮卡合作。\n\n能力\n守護靈獸：四肢為車輪的巨大青蛙，屬變化系共存型；需要共同研究者，能在體內生成具有各種能力的藥物。"
+      },
+      "ja": {
+        "title": "ツベッパ＝ホイコーロ",
+        "subtitle": "Tsubeppa Hui Guo Rou",
+        "body": "紹介\nカキンの第五王子で科学者。第二王妃ドゥアズルの娘。現体制と上位王子の支配に反対し、下位王子の特赦を求められる政治力を持つ。クラピカとの協力を模索する。\n\n能力\n守護霊獣：車輪の脚を持つ巨大な蛙。変化系の共存型で共同研究者を必要とし、体内で多様な作用を持つ薬を作る。"
+      },
+      "en": {
+        "title": "Tsubeppa Hui Guo Rou",
+        "subtitle": "Tsubeppa Hui Guo Rou",
+        "body": "Profile\nKakin’s fifth prince, a scientist and daughter of Queen Duazul. She opposes the existing system and the senior princes’ rule, has influence to seek pardons for younger princes, and pursues cooperation with Kurapika.\n\nAbilities\nGuardian Spirit Beast: a giant frog with wheels for legs. This cooperative Transmuter requires a research partner and produces medicines with various effects."
+      }
+    }
+  },
+  {
+    "id": "subject-09",
+    "category": "characters",
+    "code": "SUBJECT 09",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "哈爾肯堡·回可羅",
+        "subtitle": "Harkenburg Hui Guo Rou · ハルケンブルグ＝ホイコーロ",
+        "body": "簡介\n卡金第九王子、學者與射箭高手。生母為第一王妃溫瑪，由第二王妃德艾茲露養育。原先反對血腥繼承戰，後決心以自身力量改變局勢。\n\n能力\n能形成念之弓，射出難以迎擊或防禦的意志之箭，透過忠誠者的肉身奪取敵人的意志。\n守護靈獸：獨眼長角的牛頭巨鳥，強化系互助型；刻印者越多、意志越統一，力量越強，另能在特定條件下干涉記憶。"
+      },
+      "ja": {
+        "title": "ハルケンブルグ＝ホイコーロ",
+        "subtitle": "Harkenburg Hui Guo Rou",
+        "body": "紹介\nカキンの第九王子。学者で弓の名手。実母は第一王妃ウンマ、養母は第二王妃ドゥアズル。血なまぐさい継承戦に反対していたが、自らの力で状況を変える決意をする。\n\n能力\n念の弓から迎撃・防御の困難な意志の矢を放ち、忠誠者の肉体を介して敵の意志を奪う。\n守護霊獣：一つ目で角のある牛頭の巨鳥。相互協力型の強化系で、刻印者の数と意志の統一が力を高める。条件次第で記憶にも干渉する。"
+      },
+      "en": {
+        "title": "Harkenburg Hui Guo Rou",
+        "subtitle": "Harkenburg Hui Guo Rou",
+        "body": "Profile\nKakin’s ninth prince, a scholar and skilled archer. Born to Queen Unma and raised by Queen Duazul. Initially opposed to the bloody contest, he resolves to change events through his own power.\n\nAbilities\nCreates a Nen bow and an arrow of will that is extremely difficult to block, using a loyal follower’s body to seize an enemy’s will.\nGuardian Spirit Beast: a horned, one-eyed, bull-headed bird. A cooperative Enhancer whose power grows with the number and unity of marked followers; it can also affect memories under certain conditions."
+      }
+    }
+  },
+  {
+    "id": "subject-10",
+    "category": "characters",
+    "code": "SUBJECT 10",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "花鳥·回可羅",
+        "subtitle": "Kachou Hui Guo Rou · カチョウ＝ホイコーロ",
+        "body": "簡介\n卡金第十王子，第六王妃賽珂之女，風月的雙胞胎姊姊。表面倔強，實則十分關心妹妹與護衛旋律，擅長以摩斯密碼暗中傳遞訊息。\n\n能力\n守護靈獸「兩人季節（你已不在）」：無形念獸；雙胞胎任一方身亡時，能化為其模樣，守護另一方。"
+      },
+      "ja": {
+        "title": "カチョウ＝ホイコーロ",
+        "subtitle": "Kachou Hui Guo Rou",
+        "body": "紹介\nカキンの第十王子。第六王妃セイコの娘で、フウゲツの双子の姉。強情に見えるが、妹と護衛のセンリツを大切にする。モールス信号で密かに連絡を取る。\n\n能力\n守護霊獣「2人セゾン（キミガイナイ）」：姿のない念獣。双子のどちらかが先に亡くなると、その姿になってもう一方を守る。"
+      },
+      "en": {
+        "title": "Kachou Hui Guo Rou",
+        "subtitle": "Kachou Hui Guo Rou",
+        "body": "Profile\nKakin’s tenth prince, daughter of Queen Seiko and Fugetsu’s elder twin. Beneath a stubborn manner, she cares deeply for her sister and Melody. Uses Morse code for discreet communication.\n\nAbilities\nGuardian Spirit Beast, Without You: normally formless. If either twin dies, it takes her appearance to protect the surviving sister."
+      }
+    }
+  },
+  {
+    "id": "subject-11",
+    "category": "characters",
+    "code": "SUBJECT 11",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "風月·回可羅",
+        "subtitle": "Fugetsu Hui Guo Rou · フウゲツ＝ホイコーロ",
+        "body": "簡介\n卡金第十一王子，第六王妃賽珂之女，花鳥的雙胞胎妹妹。性格溫和而有韌性，喜愛園藝，與姊姊及旋律相互協助。\n\n能力\n守護靈獸「秘密之門（魔法曲徑）」：空間移動型能力，每日可開啟通往指定目的地的道路；出發之門由風月開啟，返回之門則由花鳥開啟。"
+      },
+      "ja": {
+        "title": "フウゲツ＝ホイコーロ",
+        "subtitle": "Fugetsu Hui Guo Rou",
+        "body": "紹介\nカキンの第十一王子。第六王妃セイコの娘で、カチョウの双子の妹。温和だが芯が強く、園芸を好む。姉やセンリツと協力する。\n\n能力\n守護霊獣「秘密の扉（マジカルワーム）」：一日一度、指定の場所へ続く道を作る空間移動能力。往路はフウゲツ、復路はカチョウが開く。"
+      },
+      "en": {
+        "title": "Fugetsu Hui Guo Rou",
+        "subtitle": "Fugetsu Hui Guo Rou",
+        "body": "Profile\nKakin’s eleventh prince, daughter of Queen Seiko and Kachou’s younger twin. Gentle but resilient, she enjoys gardening and works closely with her sister and Melody.\n\nAbilities\nGuardian Spirit Beast, Magical Worm: opens a route to a chosen destination once a day. Fugetsu opens the outward door; Kachou opens the return door."
+      }
+    }
+  },
+  {
+    "id": "subject-12",
+    "category": "characters",
+    "code": "SUBJECT 12",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "摩摩潔·回可羅",
+        "subtitle": "Momoze Hui Guo Rou · モモゼ＝ホイコーロ",
+        "body": "簡介\n卡金第十二王子，第七王妃賽凡姬之女、瑪拉亞姆的姊姊。喜歡編織，是半藏與比司吉的護衛對象之一。\n\n能力\n守護靈獸：腹部帶愛心的巨大老鼠，操作系半強制型。小型個體附身並反覆詢問「有空嗎？」；對象答應後，便放出蜘蛛念獸操控對方。"
+      },
+      "ja": {
+        "title": "モモゼ＝ホイコーロ",
+        "subtitle": "Momoze Hui Guo Rou",
+        "body": "紹介\nカキンの第十二王子。第七王妃セヴァンチの娘で、マラヤームの姉。編み物を好み、ハンゾーやビスケが護衛する対象の一人。\n\n能力\n守護霊獣：腹にハート模様のある巨大な鼠。半強制型の操作系。小型個体が「暇？」と問いかけ、相手が肯定すると蜘蛛型念獣で操る。"
+      },
+      "en": {
+        "title": "Momoze Hui Guo Rou",
+        "subtitle": "Momoze Hui Guo Rou",
+        "body": "Profile\nKakin’s twelfth prince, daughter of Queen Sevanti and Marayarm’s elder sister. She enjoys knitting and is among those guarded by Hanzo and Biscuit.\n\nAbilities\nGuardian Spirit Beast: a giant mouse with a heart on its belly. A small agent repeatedly asks whether its target is free; an affirmative reply lets a spider-like beast control them."
+      }
+    }
+  },
+  {
+    "id": "subject-13",
+    "category": "characters",
+    "code": "SUBJECT 13",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "瑪拉亞姆·回可羅",
+        "subtitle": "Marayarm Hui Guo Rou · マラヤーム＝ホイコーロ",
+        "body": "簡介\n卡金第十三王子，第七王妃賽凡姬之子、摩摩潔的弟弟。年紀尚幼，飼養倉鼠，由半藏與比司吉等人護衛。\n\n能力\n守護靈獸：龍形生物，能分離、遮蔽周圍空間，讓王子與身邊的人處於只能離開、無法從外進入的平行空間。形態受王子心境影響，並能辨識念能力者。"
+      },
+      "ja": {
+        "title": "マラヤーム＝ホイコーロ",
+        "subtitle": "Marayarm Hui Guo Rou",
+        "body": "紹介\nカキンの第十三王子。第七王妃セヴァンチの息子で、モモゼの弟。まだ幼く、ハムスターを飼う。ハンゾーやビスケらに守られている。\n\n能力\n守護霊獣：竜型。周囲の空間を分離・遮蔽し、王子たちを外へ出ることだけができる並行空間に置く。王子の感情で姿が変わり、念能力者を見分ける。"
+      },
+      "en": {
+        "title": "Marayarm Hui Guo Rou",
+        "subtitle": "Marayarm Hui Guo Rou",
+        "body": "Profile\nKakin’s thirteenth prince, son of Queen Sevanti and Momoze’s younger brother. Still a child, he keeps a hamster and is protected by Hanzo, Biscuit and other guards.\n\nAbilities\nGuardian Spirit Beast: a dragon-like creature that separates and conceals space, placing its charges in a parallel area that can be exited but not entered from outside. Its form reflects the prince’s emotions, and it can recognize Nen users."
+      }
+    }
+  },
+  {
+    "id": "subject-14",
+    "category": "characters",
+    "code": "SUBJECT 14",
+    "date": "2026-10-11",
+    "images": [],
+    "translations": {
+      "zh": {
+        "title": "倭舞琉·回可羅",
+        "subtitle": "Wable Hui Guo Rou · ワブル＝ホイコーロ",
+        "body": "簡介\n卡金第十四王子，第八王妃奧伊特之女。仍是嬰兒，由酷拉皮卡護衛，對他表現出親近與信賴。\n\n能力\n守護靈獸的外型與能力尚未明。"
+      },
+      "ja": {
+        "title": "ワブル＝ホイコーロ",
+        "subtitle": "Wable Hui Guo Rou",
+        "body": "紹介\nカキンの第十四王子。第八王妃オイトの娘で、まだ乳児。護衛のクラピカに親しみと信頼を示す。\n\n能力\n守護霊獣の姿と能力は不明。"
+      },
+      "en": {
+        "title": "Wable Hui Guo Rou",
+        "subtitle": "Wable Hui Guo Rou",
+        "body": "Profile\nKakin’s fourteenth prince and daughter of Queen Oito. Still an infant, she is guarded by Kurapika and shows affection and trust toward him.\n\nAbilities\nThe appearance and abilities of her Guardian Spirit Beast remain unknown."
+      }
+    }
+  }
+]
